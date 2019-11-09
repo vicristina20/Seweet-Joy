@@ -1,0 +1,80 @@
+.nav{
+    width: 100%;
+}
+
+.carousel_margem{
+    margin-bottom:60%;
+}
+
+.titulo{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}
+
+.titulo-historia, .titulo-trabalhos, .titulo-contatos, .titulo-lojas{
+    padding-top: 10%;
+    margin-bottom: 2%;
+}
+
+.conteudo-historia-desktop, .card-text {
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.conteudo-historia-mobile{
+    display: none;
+}
+
+.card-title{
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-redesociais-item img{
+    max-width:80px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 20%;
+}
+
+.mapa{
+    overflow:hidden;
+    padding-bottom:40%;
+    margin-bottom: 5%;
+} 
+
+.mapa iframe{
+    height:90%;
+    width:90%;
+    position:absolute;
+}
+
+.formulario{
+    margin-bottom: 5%;
+}
+
+@media(max-width:640px){
+    .titulo{
+        font-size: 1.5rem;
+    }
+
+    .conteudo-historia-desktop{
+        display: none;
+    }
+
+    .conteudo-historia-mobile{
+        display: flex;
+        font-family: 'Poiret One', cursive;
+        font-weight: 600;
+        text-align: justify;
+        padding: 8%;
+    }
+
+    .nav-redesociais-item img{
+        max-width:50px;
+    }
+
+}

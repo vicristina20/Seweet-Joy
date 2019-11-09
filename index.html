@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Titulo da página -->
+    <title>Sweet joy</title>
+
+    <!-- Chamada de CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Chamada de Javascript do Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Chamada do meu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Chamada de fonte do google -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NavBar com logotip e menus de navegação -->
+    <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="./src/assets/logo2.png" width="70" height="70" alt="Imagem de um Cupcake, logotipo da doceria">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+                
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#historia">História</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#trabalhos">Trabalhos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nossas Lojas</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#nossaslojas">Loja Accieri</a>
+                        <a class="dropdown-item" href="#nossaslojas">Loja Retiro</a>
+                        <a class="dropdown-item" href="#nossaslojas">Loja Rangel</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                
+            </ul>
+        </div>     
+    </nav>
+
+    <!-- início do Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-flex w-100 carousel_img " src="./src/assets/car01.jpg" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-flex w-100 carousel_img" src="./src/assets/car02.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-flex w-100 carousel_img" src="./src/assets/car03.jpg" alt="Terceiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-flex w-100 carousel_img" src="./src/assets/car04.jpg" alt="Quarto Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-flex w-100 carousel_img" src="./src/assets/car05.jpg" alt="Quinto Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>      
+
+    <!-- História -->
+    <div class="container" id="historia">
+        <div class="row">
+            <div class="titulo-historia col-12 col-sm-12 col-md-12">
+                <h1 class="display-4 text-center titulo">Nossa História</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4">
+                <img src="./src/assets/interior.jpg" alt="Foto da faixada da primeira loja" class="img-thumbnail">
+            </div>
+
+            <div class="conteudo-historia-desktop col-12 col-sm-12 col-md-8">
+                <p>Em meados da década de 80, duas primas, Joana Feitosa do Rosário e Maria Eugênia Feitosa do Rosário, muito unidas e dedicadas, nascidas e criadas em  família humilde, mas cheias de sonhos, decidiram fazer bolos caseiros fresquinhos e fofinhos para vender na rua onde moravam, acreditando que essa seria uma forma de iniciarem o processo para uma mudança de vida e realização de muitos objetivos.</p>
+
+                <p>Diariamente faziam seus bolos pela manhã e saiam para vender, batendo de porta em porta e recebendo em alguns momentos respostas negativas, porém com seus bolos muito gostosos foram conquistando cada vez mais respostas positivas, com o tempo conseguiram montar a primeira confeitaria, ali mesmo na rua onde moravam, um espaço todo especial e decorado do jeitinho que elas esperavam, depois de muito esforço, puderam sonhar ainda mais.</p>
+
+                <p></p>Mal sabiam que dali em diante, as oportunidades só cresceriam, hoje com 3 lojas na cidade de Jundiaí, se orgulham das suas conquistas e da qualidade dos seus produtos que a cada dia só melhora e tem sido reconhecida por  mais e mais clientes, sem contar os vários prêmios que já receberam no município pelas atitudes de empatia demonstradas ao longo dos anos.</p>
+                </div>
+
+            <div class="conteudo-historia-mobile col-12 col-sm-12 col-md-8">
+                    <p>Em meados da década de 80, duas primas, Joana Feitosa do Rosário e Maria Eugênia Feitosa do Rosário, iniciaram as vendas de bolos caseiros, oferecendo-os de porta em porta e hoje podem se orgulhar dos frutos conquistados a partir dessa iniciativa, com 3 lojas na cidade de Jundiaí e conquistando muito reconhecimento de seus clientes.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trabalhos -->
+    <div class="container-fluid" id="trabalhos">
+        <div class="row">
+            <div class="titulo-trabalhos col-12 col-sm-12 col-md-12">
+                <h1 class="display-4 text-center titulo">Nossos trabalhos</h1>
+            </div>
+        </div>
+
+        <!-- Criação dos cards -->
+        <div class="row justify-content-around">
+            <div class="card m-3" style="width: 18rem;">
+                <img class="card-img-top" src="./src/assets/card01.jpg" alt="Mesa de doces festa de casamento">
+                <div class="card-body">
+                    <h5 class="card-title">Doces para casamento</h5>
+
+                    <p class="card-text">Além de um maravilhoso e bonito bolo,também fazemos todas as opções de doces finos para a sua festa de casamento</p>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <img class="card-img-top" src="./src/assets/card02.jpg" alt="Mesa de doces festa de aniversário">
+                <div class="card-body">
+                    <h5 class="card-title">Doces para aniversário</h5>
+    
+                    <p class="card-text">Lindos e saborosos doces, com cores vivas e decoração de acordo com o tema da sua festa, trazendo muito mais alegria.</p>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <img class="card-img-top" src="./src/assets/card03.jpg" alt="Mesa de sobremesas de festa de confraternização">
+                <div class="card-body">
+                    <h5 class="card-title">Sobremesas</h5>
+    
+                    <p class="card-text">Escolha as melhores sobremesas para realizar a sua festa de confraternização, deixe sua festa muito mais saborosa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nossas Lojas -->
+    <div class="container-fluid" id="nossaslojas">
+        <div class="row">
+            <div class="titulo-trabalhos col-12 col-sm-12 col-md-12">
+                <h1 class="display-4 text-center titulo">Nossas lojas</h1>
+            </div>
+        </div>
+
+        <!-- Criação dos cards -->
+        <div class="row justify-content-around">
+            <div class="card m-3" style="width:18rem;">
+                <img class="card-img-top" src="./src/assets/loja1.jpg" alt="Mesa de doces festa de casamento">
+                <div class="card-body">
+                    <h5 class="card-title">Loja Accieri</h5>
+                    <p class="card-text">Endereço: Avenida Nícola Accieri, 121 - Jardim Celeste, Jundiaí - SP
+                    <br><br>
+                    Horário de atendimento:
+                    <br> Seg à Sex das 09:00 às 19:00
+                    <br> Sábados das 09:00 às 18:00
+                    </p>
+                </div>
+            </div>
+            <div class="card m-3" style="width:18rem;">
+                <img class="card-img-top" src="./src/assets/loja2.jpg" alt="Mesa de doces festa de aniversário">
+                <div class="card-body">
+                    <h5 class="card-title">Loja Retiro</h5>
+                    <p class="card-text">Endereço: Rua do retiro, 650 - Centro, Jundiaí - SP
+                    <br><br>
+                    Horário de atendimento: 
+                    <br> Seg à Sex das 09:00 às 18:00
+                    <br> Sábados das 09:00 às 14:00
+                    </p>
+                </div>
+            </div>
+            <div class="card m-3" style="width:18rem;">
+                <img class="card-img-top" src="./src/assets/loja3.jpg" alt="Mesa de sobremesas de festa de confraternização">
+                <div class="card-body">
+                    <h5 class="card-title">Loja Rangel</h5>
+                    <p class="card-text">Endereço: Rua Rangel Pestana, 1264 - Centro, Jundiaí - SP
+                    <br><br>
+                    Horário de atendimento:
+                    <br> Seg à Sex das 09:00 às 18:00
+                    <br> Sábados das 09:00 às 14:00
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contato -->
+    <div class="container justify-content-center" id="contato">
+        <div class="row">
+            <div class="titulo-contatos col-12 col-sm-12 col-md-12">
+                <h1 class="display-4 text-center titulo">Fale com a gente</h1>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!--Google map-->
+            <div class="mapa col-12 col-sm-12 col-md-6" id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.287041388213!2d-46.93156568539502!3d-23.1231810514407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf2f1a6254c1ef%3A0x70967654e5cf130a!2sAv.%20N%C3%ADcola%20Accieri%2C%20121%20-%20Jardim%20Celeste%2C%20Jundia%C3%AD%20-%20SP%2C%2013214-800!5e0!3m2!1spt-BR!2sbr!4v1573162165075!5m2!1spt-BR!2sbr" frameborder="0"
+        style="border:0" allowfullscreen></iframe>
+            </div>
+            
+            <div class="formulario col-12 col-sm-12 col-md-6">
+                <form>
+                    <div class="form-group">
+                    <label for="InputeNome">Nome:</label>
+                    <input type="text" class="form-control"  placeholder="Seu nome">
+                    </input>
+                </div>
+                <div class="form-group">
+                    <label for="InputEmail1">E-mail:</label>
+                    <input type="email" class="form-control" placeholder="Seu email">
+                    </input>
+                </div>
+                <div class="form-group">
+                    <label for="InputTelefone1">Telefone:</label>
+                    <input type="telefome" class="form-control" placeholder="Seu telefone">
+                    </input>
+                </div>
+                <div class="form-group">
+                        <label for="InputTelefone1">Mensagem:</label>
+                        <textarea type="mensagem" class="form-control" placeholder="Deixe sua mensagem" style="height: 100px;"></textarea>
+                </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <nav class="navbar navbar-light bg-light">
+        <ul class="nav justify-content-center">
+            <li class="nav-redesociais-item">
+                <a class="nav-link-footer active" href="https://web.whatsapp.com/" target="blank"><img src="./src/assets/whatsapp.png"></a>
+            </li>
+            <li class="nav-redesociais-item">
+                <a class="nav-link-footer" href="https://www.facebook.com/" target="blank"><img src="./src/assets/facebook.png"></a>
+            </li>
+            <li class="nav-redesociais-item">
+                <a class="nav-link-footer " href="https://www.instagram.com" target="blank"><img src="./src/assets/instagram.png"></a>
+            </li>
+        </ul>
+        <ul class="nav justify-content-center">
+            <li>
+                <p><small>Desenvolvido com muito amor por Viviane Cristina</small></p>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Chamada de javascrip do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
